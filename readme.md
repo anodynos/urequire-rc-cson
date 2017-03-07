@@ -1,6 +1,6 @@
-# [uRequire](http://urequire.org) ResourceConverter for the [*cson*](https://github.com/bevry/cson) coffeescript-y language.
+# [uRequire](http://urequire.org) ResourceConverter from .[*cson*](https://github.com/bevry/cson) to .json.
 
-Converts [`*.cson`](https://github.com/bevry/cson) to json `*.json` in your bundle. 
+Converts all [`*.cson`](https://github.com/bevry/cson) files to json `*.json` in your bundle. 
 
 When you pass options to the RC, they become the options object to the `cson.parseCSONString m.converted, @options, (err, result) ->...` call - see https://github.com/bevry/cson for the options. 
 
