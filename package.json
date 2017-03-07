@@ -1,0 +1,39 @@
+{
+  "name": "urequire-rc-cson",
+  "description": "uRequire RC for 'cson'. See http://urequire.org/resourceconverters.coffee#the-alternative-less-verbose-array-way",
+  "version": "0.1.0",
+  "main": "./source/code/urequire-rc-cson.coffee",
+  "homepage": "http://uRequire.org",
+  "author": {
+    "name": "Agelos Pikoulas",
+    "email": "agelos.pikoulas@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "keywords": [
+    "urequire",
+    "cson",
+    "json",
+    "resource",
+    "converter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anodynos/urequire-rc-cson"
+  },
+  "bugs": {
+    "url": "http://github.com/anodynos/urequire-rc-cson/issues",
+    "email": "agelos.pikoulas@gmail.com"
+  },
+  "preferGlobal": false,
+  "peerDependencies": {
+    "urequire": "~0.7.0-beta.32"
+  },
+  "dependencies": {
+    "cson": "^4"
+  }
+}
